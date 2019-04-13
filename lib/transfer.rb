@@ -42,4 +42,5 @@ class Transfer
   #     self.status = "complete"
   #   end
   # end
-#end
+
+end
