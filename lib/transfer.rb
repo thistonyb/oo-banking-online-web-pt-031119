@@ -33,13 +33,13 @@ class Transfer
     end
   end
 
-    if self.sender.status = "closed"
-      "Transaction rejected. Please check your account balance."
-    elsif
-    self.status == "pending" && self.valid?
-      self.sender.balance -= self.amount
-      self.receiver.balance += self.amount
-      self.status = "complete"
-    end
-  end
-end
+  #   if self.sender.status = "closed"
+  #     "Transaction rejected. Please check your account balance."
+  #   elsif
+  #   self.status == "pending" && self.valid?
+  #     self.sender.balance -= self.amount
+  #     self.receiver.balance += self.amount
+  #     self.status = "complete"
+  #   end
+  # end
+#end
